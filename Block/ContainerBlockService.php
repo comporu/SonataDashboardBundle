@@ -61,7 +61,7 @@ class ContainerBlockService extends BaseContainerBlockService
     /**
      * {@inheritdoc}
      */
-    public function setDefaultSettings(OptionsResolverInterface $resolver)
+    public function setDefaultSettings( $resolver)
     {
         $resolver->setDefaults(array(
             'code' => '',
